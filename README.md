@@ -85,13 +85,7 @@
 - **Proactive Hunting:** After investigating any alert, hunt for sibling TTPs across the environment.
 - **False Positive Reduction:** Maintain allowlists for known good activity and regularly tune rules.
 
-**Missing Alerts Recommendation:**  
-Your list is excellent, but consider adding the following for 2026 coverage (let me know if you want steps added):
-- Guest Account Enabled / Dormant Account Reactivated
-- Suspicious Kerberos Ticket Requests
-- Risky Service Principal Creation
-- Backup Deletion / Shadow Copy Tampering
-- Protocol Handler Abuse
+
 
 Last updated: April 2026  
 Feel free to open an issue or suggest improvements!
