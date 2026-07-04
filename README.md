@@ -85,7 +85,33 @@
 - **Proactive Hunting:** After investigating any alert, hunt for sibling TTPs across the environment.
 - **False Positive Reduction:** Maintain allowlists for known good activity and regularly tune rules.
 
+# understanding rugular vs suspecious processes 
 
+# Suspicious Parent-Child Process Relationships
 
-Last updated: April 2026  
-Feel free to open an issue or suggest improvements!
+| Normal Parent Process | Suspicious / Bad Child Process |
+|-----------------------|--------------------------------|
+| winword.exe | powershell.exe |
+| excel.exe | pwsh.exe |
+| powerpnt.exe | cmd.exe |
+| outlook.exe | wscript.exe |
+| onenote.exe | cscript.exe |
+| acrord32.exe | mshta.exe |
+| chrome.exe | regsvr32.exe |
+| msedge.exe | rundll32.exe |
+| firefox.exe | wmic.exe |
+| brave.exe | certutil.exe |
+| teams.exe | bitsadmin.exe |
+| slack.exe | curl.exe |
+| zoom.exe | wget.exe |
+| notepad.exe | ftp.exe |
+| wordpad.exe | schtasks.exe |
+| OneDrive.exe | at.exe |
+| WerFault.exe | psexec.exe |
+| spoolsv.exe | procdump.exe |
+| fontdrvhost.exe | net.exe |
+| audiodg.exe | sdelete.exe |
+| LockApp.exe | python.exe |
+| RuntimeBroker.exe | bash.exe |
+| sihost.exe | php.exe |
+| *(any of the above)* | ruby.exe |
