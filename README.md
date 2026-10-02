@@ -12,7 +12,7 @@
 
 ---
 
-## Alert Investigation Checklist
+## Alert Investigation Checklist.
 
 | Rule Name | Investigation Steps |
 |-----------|---------------------|
